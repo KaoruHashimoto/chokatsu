@@ -382,9 +382,14 @@ footer{
     flex-flow: column;
 }
 
-.small-intestine-img img{
-    width: 350px;
+.small-intestine-img{
+    justify-content: center;
 }
+
+.small-intestine-img img{
+    width: 250px;
+}
+
 
 @media only screen and (min-width:768px){
     .small-intestine{
@@ -396,6 +401,9 @@ footer{
     .small-intestine-text{
         flex: 1 1 auto;
     }
+    .small-intestine-img img{
+        width: 350px;
+    }   
 }
 
 .wikipedia{    
