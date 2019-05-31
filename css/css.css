@@ -938,6 +938,7 @@ footer{
 
 .exercise-text{
     flex: 1 1 auto;
+    padding-top: 10px;
 }
 
 .exercise-title{
@@ -948,14 +949,19 @@ footer{
     padding-bottom: 10px;
 }
 
+.exercise-img-wrap{
+    display: flex;
+    justify-content: flex-end;
+}
 .exercise-img{
     margin-top: 20px;
     background: #fff;
     padding: 10px;
+    width: 180px;
 }
 
 .exercise-img img{
-    width: 200px;
+    width: 100%;
 }
 
 .exercise-list{
