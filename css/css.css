@@ -841,8 +841,9 @@ footer{
     padding-bottom: 30px;
 }
 
-.synbiotics-img{
-    margin-left: 200px;
+.synbiotics-img-wrap{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .synbiotics-img img{
@@ -856,6 +857,7 @@ footer{
     }
     .synbiotics-img{
         margin-top: 100px;
+        margin-left: 100px;
 }
 }
 
