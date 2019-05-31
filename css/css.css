@@ -423,13 +423,18 @@ footer{
         display: flex;
         flex-flow: column;
     }
-
-.colon-img{
+.colon-img-wrap{
+    display: flex;
     justify-content: center;
 }
 
+.colon-img{
+    justify-content: center;
+    width: 50%;
+}
+
 .colon-img img{
-        width: 200px;
+        width: 100%;
     }
 
 
@@ -456,6 +461,11 @@ footer{
     padding: 20px 30px;
     margin: 40px 0;
     font-size: 0.9rem;
+}
+
+.corn-img-wrap{
+    display: flex;
+    justify-content: center;
 }
 
 .corn-img img{
