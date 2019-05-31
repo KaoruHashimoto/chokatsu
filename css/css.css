@@ -424,6 +424,10 @@ footer{
         flex-flow: column;
     }
 
+.colon-img{
+    justify-content: center;
+}
+
 .colon-img img{
         width: 200px;
     }
@@ -431,7 +435,6 @@ footer{
 
 @media only screen and (min-width:768px){
     .colon{
-        display: flex;
         flex-flow: row;
     }
 
