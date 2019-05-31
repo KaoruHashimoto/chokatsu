@@ -760,6 +760,10 @@ footer{
     font-size: 0.9rem;
 }
 
+.war-img-wrap{
+    display: flex;
+    justify-content: center;
+}
 .war-img{
     margin-top: 40px;
     margin-left: 120px;
