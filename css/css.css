@@ -475,6 +475,7 @@ footer{
 
 @media only screen and (min-width:768px){
     .corn{
+        overflow: hidden;
     background: #f9f5c3;
     border-radius: 10px;
     padding: 20px 30px;
@@ -482,10 +483,9 @@ footer{
     font-size: 0.9rem;
 }
     .corn-img-wrap{
-    flex-flow:wrap;
-    justify-content: flex-end;
-}
-
+        float: right;
+        margin-top: -400px;
+    }
     .corn-img img{
         width: 300px;
     }
@@ -539,6 +539,8 @@ footer{
 }
 
 .right-and-wrong-point{
+    display: flex;
+    flex-flow: column;
     background:#f9f5c3;
     padding: 2px 5px 5px 5px;
     margin-top: 15px;
@@ -547,6 +549,8 @@ footer{
     text-align: center;
 }
 
+}
+    
 @media only screen and (min-width:768px){
     .right-and-wrong-container{
         flex-flow: row;
