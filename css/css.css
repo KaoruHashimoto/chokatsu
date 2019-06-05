@@ -542,7 +542,7 @@ footer{
     display: flex;
     flex-flow: column;
     background:#f9f5c3;
-    padding: 2px 5px 5px 5px;
+    padding: 2px 0;
     margin-top: 15px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -555,7 +555,7 @@ footer{
         flex-flow: row;
         align-items: flex-end;
     }
-    .right-and-wrong{
+        .right-and-wrong{
         flex: 1 1 auto;
     }
     .right-and-wrong-img{
@@ -615,11 +615,12 @@ footer{
 
 @media only screen and (min-width:768px){
     .right-and-wrong-point03{
-        margin: -15px 10px 10px 10px;
+        margin: -15px 0 10px 0;
     }
+    
     .right-and-wrong03{
         display: inline-block;
-        margin: 10px 5px;;
+        margin: 10px 5px;
         font-size: 1.2rem;
         padding: 5px 40px;
     }
@@ -815,9 +816,14 @@ footer{
     .war{
         flex-flow: row;
     }
+    .war-img-wrap{
+        flex-flow: row;
+        justify-content: flex-end;
+    }
     .war-img img{
     width: 150px;
     height: auto;
+        margin-top: -20px;
 }
 }
 
