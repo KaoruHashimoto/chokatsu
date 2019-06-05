@@ -549,8 +549,7 @@ footer{
     text-align: center;
 }
 
-}
-    
+  
 @media only screen and (min-width:768px){
     .right-and-wrong-container{
         flex-flow: row;
@@ -573,6 +572,14 @@ footer{
     }
 }
 
+.right-and-wrong-point02{
+    margin-top: 10px;
+}
+
+.right-and-wrong-point03{
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
 
 .right-and-wrong01{
     background: linear-gradient(transparent 50%, #f9f5c3 50%);
@@ -588,7 +595,7 @@ footer{
 .right-and-wrong03{
     font-weight: bold;
     color: #fff;
-    margin: 0 5px;
+    margin: 10px 50px;
     background: #d24858;
     padding: 3px 10px;
     border-radius: 4px;
@@ -606,6 +613,18 @@ footer{
     font-size: 1.1rem;
 }
 
+@media only screen and (min-width:768px){
+    .right-and-wrong-point03{
+        margin: -15px 10px 10px 10px;
+    }
+    .right-and-wrong03{
+        display: inline-block;
+        margin: 10px 5px;;
+        font-size: 1.2rem;
+        padding: 5px 40px;
+    }
+}
+  
 .enteric-bacteria{
         display: flex;
         flex-flow: column;
